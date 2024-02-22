@@ -1,0 +1,33 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+$primary:rgb(14, 3, 63);
+$info: rgb(97, 3, 84);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+body{
+  background-color: $primary;
+}
+.navbar{
+  background-image: linear-gradient(rgb(93, 10, 226),rgb(14, 3, 63));
+  
+}
+#intro{
+  height: 100vh;
+}
+.footer{
+  height: 150px;
+  background-image: url(../assets/sterren.jpg);
+  background-repeat:inherit;
+ 
+
+}
+img{
+  float: left;
+  
+}
+
